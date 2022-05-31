@@ -1,0 +1,6 @@
+.gradle/
+.idea/
+build/
+*.zip
+data/kotlin-compiler-dex/
+data/kotlin-compiler-jvm/
