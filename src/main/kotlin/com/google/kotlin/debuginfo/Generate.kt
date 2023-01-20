@@ -88,7 +88,7 @@ fun generateComparisonTests(
     appendMockMethodInfo(MockMethodInfo.fromMethodInfo(method.jvm!!))
     appendLine(",")
     indented(3, "dex = ")
-    appendMockMethodInfo(MockMethodInfo.fromMethodInfo(method.jvm!!))
+    appendMockMethodInfo(MockMethodInfo.fromMethodInfo(method.dex!!))
     appendLine()
     indented(2, ")\n")
   }
